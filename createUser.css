@@ -1,0 +1,53 @@
+#reportPasswordMissMatch {
+    display: none;
+    color: red;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    border-radius: 3px;
+    border: 0.5px solid grey;
+    outline: 0px;
+}
+
+input:not([type="submit"]):focus {
+    box-shadow: rgb(224, 170, 19) 0px 0px 7px;
+}
+
+#formBox {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form * {
+    display: block;
+    margin: auto;
+}
+
+#formBox label, #formBox h2, #formBox #reportPasswordMissMatch {
+    margin-left: 5%;
+}
+
+.inputMarginTop {
+    margin-top: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#submit {
+    background-image: linear-gradient(to bottom, rgb(238, 215, 172), rgb(238, 183, 81));
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#submit:active {
+    box-shadow: rgb(224, 170, 19) 0px 0px 7px;
+}

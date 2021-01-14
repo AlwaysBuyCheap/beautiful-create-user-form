@@ -1,0 +1,21 @@
+<html>
+	<link rel="stylesheet" href="createUser.css"></link>
+	<body>
+		<div id="formBox">
+			<h2>Create Account</h2>
+			<form method="get" id="form" action="result.html">
+				<label>Username:</label>
+				<input name="nombre" type="text" id="name" autocomplete="off" required>
+				<label class="inputMarginTop">Email:</label>
+				<input name="email" type="email" id="email" autocomplete="off" required>
+				<label class="inputMarginTop">Password:</label>
+				<input type="password" class="password" id="pass1" required minlength="6" autocomplete="off" required>
+				<label class="inputMarginTop">Repeat password:</label>
+				<input type="password" class="password" id="pass2" autocomplete="off">
+				<div id="reportPasswordMissMatch">Passwords must match</div>
+				<input type="submit" id="submit" class="inputMarginTop" value="Create User">
+			</form>
+		</div>
+	</body>
+	<script src="createUser.js"></script>
+</html>
